@@ -28,6 +28,7 @@ pipeline {
     stage('update_installer') {
       steps {
         sh 'echo update installer'
+        sh 'git clone git@github.com:maplefeng-a/hello_go.git'
       }
     }
 
